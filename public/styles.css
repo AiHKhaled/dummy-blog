@@ -61,7 +61,33 @@ h3 {
   margin-left: 20px;
 }
 /* index styles */
+.all-blogs a {
+  display: block;
+  color: white;
+  margin: 40px 0;
+  padding-left: 30px;
+  border-left: 6px solid rgb(97, 214, 208);
+}
+.all-blogs a:hover h3 {
+  color: rgb(97, 214, 208);
+}
 /* details styles */
+.details {
+  position: relative;
+}
+.delete {
+  position: absolute;
+  color: aliceblue;
+  top: 0%;
+  right: 0%;
+  border-radius: 25%;
+  border-color: white;
+  padding: 8px;
+}
+.delete:hover {
+  color: rgb(223, 45, 45);
+  cursor: pointer;
+}
 /* create styles */
 .create-blog form {
   max-width: 400px;
